@@ -3,11 +3,11 @@ def line(deli)
   if deli.size == 0 
     puts "The line is currently empty."
   else 
-    string = "The line is currently:"
+    line = "The line is currently:"
     deli.each_with_index do |name, index|
-    string << " #{index + 1}. #{name}"
+    line << " #{index + 1}. #{name}"
     end 
-    puts string  
+    puts line  
   end 
 end 
 
